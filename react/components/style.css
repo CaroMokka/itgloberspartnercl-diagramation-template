@@ -4,6 +4,7 @@
 .grid__4 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 /* grid 2 */
 .grid__2 > div:nth-child(1) {
