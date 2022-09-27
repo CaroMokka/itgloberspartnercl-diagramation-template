@@ -37,14 +37,17 @@
 }
 
 .grid__ItemBig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(50% - 20px);
-    height: 500px;
-    background-color: deeppink;
-    margin: 10px;
+    height: auto;
+    background-color: black;
+
 }
 .grid__ItemSmall{
     width: calc(25% - 20px);
-    height: 500px;
-    background-color: greenyellow;
-    margin: 10px;
+    height: auto;
+    background-color: white;
+
 }
