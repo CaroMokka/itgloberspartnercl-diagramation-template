@@ -44,11 +44,43 @@
     width: calc(50% - 20px);
     height: auto;
     background-color: black;
+    margin: 10px;
 
 }
 .grid__ItemSmall{
     width: calc(25% - 20px);
     height: auto;
     background-color: white;
+    margin: 10px;
 
+}
+@media screen and (max-width: 1024px){
+    .grid__1,
+    .grid__2,
+    .grid__3,
+    .grid__4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+}
+.grid__ItemBig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 20px);
+    height: auto;
+    background-color: black;
+    margin: 10px;
+
+}
+.grid__ItemSmall{
+    width: calc(100% - 20px);
+    display: flex;
+    margin: 10px;
+    height: auto;
+    background-color: white;
+
+}
 }
