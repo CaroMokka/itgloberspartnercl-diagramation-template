@@ -44,14 +44,12 @@
     width: calc(50% - 20px);
     height: auto;
     background-color: black;
-    margin: 10px;
 
 }
 .grid__ItemSmall{
     width: calc(25% - 20px);
     height: auto;
     background-color: white;
-    margin: 10px;
 
 }
 @media screen and (max-width: 1024px){
@@ -62,8 +60,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        flex-direction: column;
-        align-items: center;
 }
 .grid__ItemBig{
     display: flex;
@@ -73,7 +69,6 @@
     height: auto;
     background-color: black;
     margin: 10px;
-
 }
 .grid__ItemSmall{
     width: calc(100% - 20px);
